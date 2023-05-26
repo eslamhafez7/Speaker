@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;800;1000&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: -webkit-linear-gradient(45deg, #09009f, #009f95 80%);
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    row-gap: 0.4rem;
+}
+textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 140px;
+    font-size: 18px;
+    resize: none;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px;
+    outline: none;
+    transition: 0.4s;
+}
+textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+input {
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+input:active {
+    transform: translateY(10px);
+}
