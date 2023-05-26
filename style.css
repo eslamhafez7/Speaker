@@ -46,3 +46,8 @@ input {
 input:active {
     transform: translateY(10px);
 }
+.copyright {
+    color: #ccc;
+    font-size: 12px;
+    padding: 0 10px;
+}
